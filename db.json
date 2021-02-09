@@ -2,7 +2,7 @@
   "productos": [
     {
       "nombre": "Suadero",
-      "precio": "1000",
+      "precio": "500",
       "id": 7
     },
     {
@@ -29,6 +29,11 @@
       "nombre": "Gansito",
       "precio": "20",
       "id": 14
+    },
+    {
+      "nombre": "salchichas con jamon",
+      "precio": 5,
+      "id": 15
     }
   ]
 }

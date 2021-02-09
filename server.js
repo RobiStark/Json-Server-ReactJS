@@ -8,4 +8,20 @@ const port = process.env.PORT || 4000;
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+server.listen(port); 
+
+// npm link json-server y luego npm start
+
+
+/* const jsonServer = require("json-server");
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
+
+server.use(middlewares);
+
+server.use(router);
+
+server.listen(5000, () => {
+  console.log("JSON Server is running");
+}); */
